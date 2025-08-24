@@ -19,8 +19,10 @@ int binarysearch(int a[],int n,int x){
     while(low <= high){
         count++;
         int mid =(low+high) / 2;
-        if(t[mid] == x) return count;
-        else if(t[mid] < x) low = mid+1;
+        if(t[mid] == x) 
+            return count;
+        else if(t[mid] < x) 
+            low = mid+1;
         else high = mid - 1;
     }
     return count;
