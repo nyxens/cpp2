@@ -2,7 +2,7 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
-using namespace std;
+using namespace std; 
 
 // Partition function (Lomuto scheme)
 int partition(vector<int>& a, int low, int high) {

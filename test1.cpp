@@ -47,7 +47,7 @@ int select2(vector<int>& arr,int k,int low,int high){
         return select2(arr,k-rank,j+1,high);
 
 }
-int main(){
+int main(){ 
     vector<int> arr = {12, 3, 5, 7, 4, 19, 26};
     int k = 4;
     int kthSmallest = select2(arr, k, 0, arr.size() - 1);
