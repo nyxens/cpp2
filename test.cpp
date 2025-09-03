@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std; 
-
+ 
 // Partition function (Lomuto scheme)
 int partition(vector<int>& a, int low, int high) {
     int pivotIndex = low + rand() % (high - low + 1); // random pivot

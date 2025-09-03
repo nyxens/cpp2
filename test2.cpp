@@ -9,7 +9,7 @@ matrix add(const matrix &A, const matrix &B) {
         for (int j = 0; j < n; j++)
             C[i][j] = A[i][j] + B[i][j];
     return C;
-} 
+}  
 matrix subtract(const matrix &A, const matrix &B) {
     int n = A.size();
     matrix C(n, vector<int>(n));
