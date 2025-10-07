@@ -5,7 +5,7 @@
 #include <chrono>
 #include <fstream>
 using namespace std;
-using namespace std::chrono;
+using namespace std::chrono;   
 //use plot6
 int partition(vector<int>& arr,int left,int right,int pivot){
     int i = left;
